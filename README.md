@@ -1,9 +1,13 @@
 # capx
-A python and tshark script for command line analysis of network traffic.
+A Python and tshark script for command line analysis of network traffic.
 
 Requires tshark:
 ```
 sudo apt install tshark
+```
+And also some python packages:
+```
+pip2 install -r requirements.txt
 ```
 
 If you have some cap files in this directory, try:
